@@ -24,17 +24,16 @@
         theme: {
           extend: {
             colors: {
-              "bg-primary": "#E76F51",
-              "bg-secondary": "rgba(231, 111, 81, 0.10)",
-              "font-primary": "#f0ffff",
-              "font-secondary": "#69728f",
               primary: "#E76F51",
-              secondary: "#FF2244",
+              secondary: "rgba(231, 111, 81, 0.10)",
+              inter: "#f0ffff",
+              degree: "#69728f",
             },
           },
         },
       };
     </script>
+
     <!-- external css link -->
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
@@ -65,10 +64,10 @@
                 tabindex="0"
                 class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
               >
-                <li><a class="text-xl text-font-secondary">Home</a></li>
-                <li><a class="text-xl text-font-secondary">Shop</a></li>
-                <li><a class="text-xl text-font-secondary">News</a></li>
-                <li><a class="text-xl text-font-secondary">Contact</a></li>
+                <li><a class="text-xl text-degree">Home</a></li>
+                <li><a class="text-xl text-degree">Shop</a></li>
+                <li><a class="text-xl text-degree">News</a></li>
+                <li><a class="text-xl text-degree">Contact</a></li>
               </ul>
             </div>
             <a class="btn btn-ghost text-4xl text-[#E76F51] font-bold"
@@ -89,8 +88,7 @@
 
           <div class="">
             <!-- if use class="navbar-end" menu items will go left side -->
-            <a
-              class="btn bg-bg-primary text-font-primary px-8 text-2xl font-thin"
+            <a class="btn bg-primary text-inter px-8 text-2xl font-thin"
               >Login</a
             >
           </div>
@@ -99,7 +97,7 @@
       <!-- ---------caurosel------------ -->
       <div class="carousel w-full md:h-[500px]">
         <!-- carousel 01 -->
-        <div id="slide1" class="carousel-item relative w-full bg-bg-secondary">
+        <div id="slide1" class="carousel-item relative w-full bg-secondary">
           <div
             class="flex flex-col md:flex-row gap-5 md:p-20 items-center justify-center py-12"
           >
@@ -110,13 +108,11 @@
                 Ride away on Your
                 <span style="color: #e76f51">favorite car</span>
               </h1>
-              <p class="text-font-secondary md:w-2/3 py-8">
+              <p class="text-degree md:w-2/3 py-8">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit officia consequat duis enim velit mollit.
               </p>
-              <button
-                class="btn bg-bg-primary text-font-primary px-8 text-2xl font-thin"
-              >
+              <button class="btn bg-primary text-inter px-8 text-2xl font-thin">
                 Button
               </button>
             </div>
@@ -148,13 +144,11 @@
                 Ride away on Your
                 <span style="color: #e76f51">favorite car</span>
               </h1>
-              <p class="text-font-secondary md:w-2/3 py-8">
+              <p class="text-degree md:w-2/3 py-8">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit officia consequat duis enim velit mollit.
               </p>
-              <button
-                class="btn bg-bg-primary text-font-primary px-8 text-2xl font-thin"
-              >
+              <button class="btn bg-primary text-inter px-8 text-2xl font-thin">
                 Button
               </button>
             </div>
@@ -185,13 +179,11 @@
                 Ride away on Your
                 <span style="color: #e76f51">favorite car</span>
               </h1>
-              <p class="text-font-secondary md:w-2/3 py-8">
+              <p class="text-degree md:w-2/3 py-8">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit officia consequat duis enim velit mollit.
               </p>
-              <button
-                class="btn bg-bg-primary text-font-primary px-8 text-2xl font-thin"
-              >
+              <button class="btn bg-primary text-inter px-8 text-2xl font-thin">
                 Button
               </button>
             </div>
@@ -222,13 +214,11 @@
                 Ride away on Your
                 <span style="color: #e76f51">favorite car</span>
               </h1>
-              <p class="text-font-secondary md:w-2/3 py-8">
+              <p class="text-degree md:w-2/3 py-8">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit officia consequat duis enim velit mollit.
               </p>
-              <button
-                class="btn bg-bg-primary text-font-primary px-8 text-2xl font-thin"
-              >
+              <button class="btn bg-primary text-inter px-8 text-2xl font-thin">
                 Button
               </button>
             </div>
@@ -259,13 +249,11 @@
                 Ride away on Your
                 <span style="color: #e76f51">favorite car</span>
               </h1>
-              <p class="text-font-secondary md:w-2/3 py-8">
+              <p class="text-degree md:w-2/3 py-8">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit officia consequat duis enim velit mollit.
               </p>
-              <button
-                class="btn bg-bg-primary text-font-primary px-8 text-2xl font-thin"
-              >
+              <button class="btn bg-primary text-inter px-8 text-2xl font-thin">
                 Button
               </button>
             </div>
@@ -289,7 +277,7 @@
     <main class="md:container md:mx-auto">
       <!-- -----------featured car------------- -->
       <section>
-        <h1 class="text-center text-4xl font-bold pt-12 text-font-secondary">
+        <h1 class="text-center text-4xl font-bold pt-12 text-degree">
           Fetured cars In This Year
         </h1>
         <p class="text-center text-[10px] text-[#E76F51]">
@@ -324,7 +312,7 @@
       </section>
       <!-- ----------latest car------------- -->
       <section>
-        <h1 class="text-center text-4xl font-bold pt-12 text-font-secondary">
+        <h1 class="text-center text-4xl font-bold pt-12 text-degree">
           Latest Car
         </h1>
         <div class="grid gap-6 grid-cols-1 md:grid-cols-3 py-16">
@@ -343,7 +331,7 @@
               fermentum amet faucibus sed id nisi lectus at.
             </p>
             <button
-              class="btn btn-outline btn-primary hover:bg-[#E76F51] text-font-primary px-6 text-xl font-thin mt-6"
+              class="btn btn-outline btn-primary hover:bg-[#E76F51] text-inter px-6 text-xl font-thin mt-6"
             >
               Read More
             </button>
@@ -363,7 +351,7 @@
               fermentum amet faucibus sed id nisi lectus at.
             </p>
             <button
-              class="btn btn-outline btn-primary hover:bg-bg-primary text-font-primary px-6 text-xl font-thin mt-6"
+              class="btn btn-outline btn-primary hover:bg-primary text-inter px-6 text-xl font-thin mt-6"
             >
               Read More
             </button>
@@ -384,7 +372,7 @@
               fermentum amet faucibus sed id nisi lectus at.
             </p>
             <button
-              class="btn btn-outline btn-primary hover:bg-bg-primary text-font-primary px-6 text-xl font-thin mt-6"
+              class="btn btn-outline btn-primary hover:bg-primary text-inter px-6 text-xl font-thin mt-6"
             >
               Read More
             </button>
@@ -393,9 +381,7 @@
       </section>
       <!-- happy client section -->
       <section>
-        <h1
-          class="text-center text-4xl font-bold pt-12 text-font-secondary py-20"
-        >
+        <h1 class="text-center text-4xl font-bold pt-12 text-degree py-20">
           Happy <span class="text-primary">Clients Saya</span>
         </h1>
         <div class="grid gap-8 grid-cols-1 md:grid-cols-3">
@@ -523,9 +509,7 @@
       </section>
       <!-- FAQ section -->
       <section>
-        <h1
-          class="text-center text-4xl font-bold pt-12 text-font-secondary py-20"
-        >
+        <h1 class="text-center text-4xl font-bold pt-12 text-degree py-20">
           Frequently Asked <span class="text-primary">Questions</span>
         </h1>
         <div
